@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+<link rel='stylesheet' href='css/reset.css'>
+<link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+<div class='images'><div data-url='imgs/1.jpg' class='show'><div class='num'>1/5</div></div><div data-url='imgs/2.jpg'><div class='num'>2/5</div></div><div data-url='imgs/3.jpg'><div class='num'>3/5</div></div><div data-url='imgs/4.jpg'><div class='num'>4/5</div></div><div data-url='imgs/5.jpg'><div class='num'>5/5</div></div></div>
+<div class='prev hide'></div>
+<div class='next'></div>
+<script src='js/main.js'></script>
+<script>
+rep = ['Oui' , 'Non'];
+i = 0;
+question = 'Est ce que vous êtes satisfait par le produit ?';
+window.parent.service.question(question, rep, i);
+<script>
+</body>
+</html>
